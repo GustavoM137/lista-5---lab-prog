@@ -10,7 +10,7 @@ int main(){
     if (ler_int(pa)) return 1;
 
     puts("Digite o segundo valor:");
-    if (ler_int(pb))return 1;
+    if (ler_int(pb)) return 1;
 
     puts("Antes:");
     printf("A[%p] = %d\n", (void *)pa, *pa);
