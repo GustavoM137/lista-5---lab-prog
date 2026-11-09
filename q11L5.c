@@ -26,13 +26,13 @@ int main(){
     putchar('\n');
 
     for (int i = 0; i < TAM; i++){
-        (*(*(M + *(Y + i)) + *(X + i)))++; // M[Y[i]][X[i]]++;
+        M[Y[i]][X[i]]++;
     }
 
     putchar('\n');
     for (int i = 0; i < N; i++){
         for (int j = 0; j < N; j++){
-            printf("[%d] ", *(*(M + i) + j)); // M[i][j];
+            printf("[%d] ", M[i][j]);
         }
         putchar('\n');
     }
